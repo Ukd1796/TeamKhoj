@@ -43,11 +43,6 @@ export default function Home() {
               </Link>
             </button>
         }
-         <button className='p-2 text-white text-md text-center rounded-lg hover:bg-orange-900 cursor-pointer bg-orange-900 my-8 px-4 hover:scale-105 transition-all'>
-              <Link href='/api/auth/logout'>
-                Logout
-              </Link>
-            </button>
       </div>
     </Layout>
     
