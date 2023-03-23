@@ -8,6 +8,8 @@ html{
   font-family:"Lora",
 }
 
-.bg{
-  background-color: rgb(255 237 213);
-}
+@layer base {
+  body{
+     @apply bg-orange-100;
+  }
+} 

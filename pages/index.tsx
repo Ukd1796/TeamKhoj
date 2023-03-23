@@ -31,7 +31,7 @@ export default function Home() {
       <p className="mt-4 font-extralight text-xl">Your Own Research Assistant</p>
         {
           !active ?
-            <button className='p-2 text-white text-md text-center rounded-lg bg-transparent hover:bg-orange-900 cursor-pointer bg-orange-900 my-8 px-4 hover:scale-105 transition-all'>
+            <button className='p-2 text-white text-md text-center rounded-lg  hover:bg-orange-900 cursor-pointer bg-orange-900 my-8 px-4 hover:scale-105 transition-all'>
               <Link href='/api/auth/login'>
                 Get Started
               </Link>
@@ -43,6 +43,11 @@ export default function Home() {
               </Link>
             </button>
         }
+         <button className='p-2 text-white text-md text-center rounded-lg hover:bg-orange-900 cursor-pointer bg-orange-900 my-8 px-4 hover:scale-105 transition-all'>
+              <Link href='/api/auth/logout'>
+                Logout
+              </Link>
+            </button>
       </div>
     </Layout>
     
