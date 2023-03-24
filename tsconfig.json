@@ -18,6 +18,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/workspace.jsx", "pages/workspace.jsx", "components/Card.jsx", "components/Card.jsx", "components/SideNavbar.jsx", "components/SideNavbar.jsx"],
   "exclude": ["node_modules"]
 }
