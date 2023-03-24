@@ -19,6 +19,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "models/workSpace.js", "pages/api/getworkspace.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/workspace.jsx", "pages/workspace.jsx", "components/Card.jsx", "components/Card.jsx", "components/SideNavbar.jsx", "components/SideNavbar.jsx", "models/workSpace.js", "pages/api/getworkspace.js"],
   "exclude": ["node_modules"]
 }
