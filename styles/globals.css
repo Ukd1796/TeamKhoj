@@ -10,6 +10,6 @@ html{
 
 @layer base {
   body{
-     @apply bg-orange-100;
+     @apply bg-white;
   }
 } 
