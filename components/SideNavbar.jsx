@@ -15,6 +15,7 @@ import { CgProfile } from "react-icons/cg";
 import { FaRegComments } from "react-icons/fa";
 import { BiMessageSquareDots } from "react-icons/bi";
 
+
 function SideNavbar() {
   return (
     <div>
@@ -28,7 +29,7 @@ function SideNavbar() {
         <div className="p-6 w-1/2 h-screen bg-orange-100 z-20 fixed top-0 -left-96 lg:left-0 lg:w-60  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
           <div className="flex flex-col justify-start item-center">
           <RoughNotation animationDelay={1000} animationDuration={2000} type="box" show={true}>
-            <h1 className="text-base text-center text-5xl font-serif">
+            <h1 className="text-base text-center text-4xl font-serif">
               KHOJ
             </h1>
             </RoughNotation>
