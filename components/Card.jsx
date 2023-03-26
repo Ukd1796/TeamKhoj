@@ -4,7 +4,7 @@ import { AiFillHeart } from "react-icons/ai";
 import { BsChatSquareFill } from "react-icons/bs";
 import styles from "./Card.module.css";
 
-const Card = ({ title, likes, order }) => {
+const CardNew = ({ title, likes, order }) => {
   return (
     <div className={classNames([styles.wrapper, styles.wrapperAnime])}>
       <div className={styles.textWrapper}>
@@ -14,4 +14,4 @@ const Card = ({ title, likes, order }) => {
   );
 };
 
-export default Card;
+export default CardNew;

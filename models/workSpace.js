@@ -6,7 +6,7 @@ const workspaceSchema = new Schema({
             type: String,
             required: true
         },
-        adminEmail: {
+        workspaceName: {
             type: String,
             required: true
         },
@@ -18,10 +18,6 @@ const workspaceSchema = new Schema({
             type: Number,
             required: true
         }, 
-        workspaceName: {
-            type: String,
-            required: true
-        },
         dateofCreation: {
             type:String,
             required:true
